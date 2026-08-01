@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #f0f1eb;
+  background: #101211;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; background: #101211; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+
+.scrollbar-subtle::-webkit-scrollbar { width: 8px; height: 8px; }
+.scrollbar-subtle::-webkit-scrollbar-thumb { background: #394039; border-radius: 999px; }
+.scrollbar-subtle::-webkit-scrollbar-track { background: transparent; }

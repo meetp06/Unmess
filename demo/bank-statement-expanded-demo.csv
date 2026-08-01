@@ -1,0 +1,13 @@
+Transaction_ID,Date,Vendor,Amount_USD
+TX-80421,2026-07-29,Acme Office Supply,184.50
+TX-80418,2026-07-28,Northstar Coffee,42.80
+TX-80411,2026-07-27,Metro Parking,36.00
+TX-80407,2026-07-26,Cloudline Software,249.00
+TX-80399,2026-07-25,Union Market,81.24
+TX-80429,2026-07-30,Harbor Hardware,125.75
+TX-80434,2026-07-31,Pacific Paper Company,63.40
+TX-80440,2026-08-01,Green Line Transit,19.50
+TX-80444,2026-08-02,Redwood Print Laboratory,172.10
+TX-80449,2026-08-03,Bay City Internet,89.99
+TX-80453,2026-08-04,Summit Team Lunch,212.35
+TX-80456,2026-08-05,Apex Parcel Service,28.60
