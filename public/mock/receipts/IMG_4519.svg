@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 620" width="400" height="620" role="img" aria-label="Adobe subscription invoice, total $85.99">
+  <defs>
+    <style>
+      .p { fill: #fdfdfb; }
+      .s { font-family: ui-sans-serif, "Segoe UI", system-ui, sans-serif; fill: #1f1e1c; }
+      .t { font-family: ui-monospace, "Cascadia Mono", Consolas, "Courier New", monospace; fill: #1f1e1c; }
+      .xs { font-size: 10px; }
+      .sm { font-size: 12px; }
+      .md { font-size: 14px; }
+      .lg { font-size: 17px; }
+      .faint { fill: #8e8a84; }
+      .r { text-anchor: end; }
+      .b { font-weight: 700; }
+      .rule { stroke: #e0dcd4; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect class="p" x="6" y="6" width="388" height="608"/>
+  <rect x="6" y="6" width="388" height="608" fill="none" stroke="#e6e2da"/>
+
+  <text class="s lg b" x="28" y="52">Adobe Inc.</text>
+  <text class="s xs faint" x="28" y="70">345 Park Avenue, San Jose, CA 95110</text>
+  <text class="s xs faint" x="28" y="84">800-833-6687</text>
+
+  <text class="s xs faint r" x="372" y="52">INVOICE</text>
+  <text class="t sm b r" x="372" y="70">ADB-4519-0703</text>
+
+  <line class="rule" x1="28" y1="104" x2="372" y2="104"/>
+
+  <text class="s xs faint" x="28" y="126">BILL TO</text>
+  <text class="s sm" x="28" y="146">Northwind Operations LLC</text>
+  <text class="s xs faint" x="28" y="162">accounts@northwind-ops.example</text>
+
+  <text class="s xs faint r" x="372" y="126">INVOICE DATE</text>
+  <text class="t sm r" x="372" y="146">2026-07-03</text>
+  <text class="s xs faint r" x="372" y="164">TERMS: DUE ON RECEIPT</text>
+
+  <line class="rule" x1="28" y1="188" x2="372" y2="188"/>
+
+  <text class="s xs faint" x="28" y="210">DESCRIPTION</text>
+  <text class="s xs faint r" x="372" y="210">AMOUNT</text>
+
+  <text class="s sm" x="28" y="238">Creative Cloud — All Apps</text>
+  <text class="t sm r" x="372" y="238">85.99</text>
+  <text class="s xs faint" x="28" y="254">1 seat · monthly · renews 2026-08-03</text>
+
+  <line class="rule" x1="28" y1="280" x2="372" y2="280"/>
+
+  <text class="s sm" x="240" y="304">Subtotal</text>
+  <text class="t sm r" x="372" y="304">85.99</text>
+  <text class="s sm" x="240" y="324">Tax</text>
+  <text class="t sm r" x="372" y="324">0.00</text>
+
+  <rect x="228" y="338" width="144" height="34" fill="#f2efe8"/>
+  <text class="s md b" x="240" y="360">Total</text>
+  <text class="t md b r" x="360" y="360">$85.99</text>
+
+  <line class="rule" x1="28" y1="396" x2="372" y2="396"/>
+
+  <text class="s xs faint" x="28" y="418">PAYMENT</text>
+  <text class="s sm" x="28" y="440">ACH debit · account ••••8841</text>
+  <text class="t xs faint" x="28" y="458">Settled 2026-07-03 · trace 0703ADB4519</text>
+
+  <text class="s xs faint" x="28" y="494">Statement descriptor:</text>
+  <text class="t xs" x="28" y="512">ACH DEBIT ADOBE INC ADOBE  800-833-6687</text>
+
+  <line class="rule" x1="28" y1="540" x2="372" y2="540"/>
+  <text class="s xs faint" x="28" y="562">This invoice was generated automatically and is</text>
+  <text class="s xs faint" x="28" y="576">valid without signature.</text>
+  <text class="t xs faint r" x="372" y="590">Page 1 of 1</text>
+</svg>
