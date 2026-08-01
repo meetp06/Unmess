@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 620" width="400" height="620" role="img" aria-label="Amazon Marketplace packing slip receipt, total $130.00">
+  <defs>
+    <style>
+      .p { fill: #f5f2ea; }
+      .t { font-family: ui-monospace, "Cascadia Mono", Consolas, "Courier New", monospace; fill: #2a2723; }
+      .xs { font-size: 10px; }
+      .sm { font-size: 12px; }
+      .md { font-size: 14px; }
+      .lg { font-size: 19px; letter-spacing: 2px; }
+      .dim { fill: #6f6a61; }
+      .r { text-anchor: end; }
+      .c { text-anchor: middle; }
+      .b { font-weight: 700; }
+      .rule { stroke: #b8b2a6; stroke-width: 1; }
+      .dash { stroke: #b8b2a6; stroke-width: 1; stroke-dasharray: 3 3; }
+    </style>
+  </defs>
+
+  <!-- paper, with a torn bottom edge -->
+  <path class="p" d="M8 6h384v584l-16 8-16-8-16 8-16-8-16 8-16-8-16 8-16-8-16 8-16-8-16 8-16-8-16 8-16-8-16 8-16-8-16 8-16-8-16 8-16-8-16 8-16-8-16 8-16-8z"/>
+  <rect x="8" y="6" width="384" height="584" fill="none" stroke="#ddd7c9" stroke-width="1"/>
+
+  <text class="t lg b c" x="200" y="52">MARKETPLACE</text>
+  <text class="t xs c dim" x="200" y="70">FULFILLMENT CENTER BFI4</text>
+  <text class="t xs c dim" x="200" y="84">2121 8TH AVE, SEATTLE WA 98121</text>
+
+  <line class="dash" x1="28" y1="102" x2="372" y2="102"/>
+
+  <text class="t sm" x="28" y="124">ORDER  114-2938471-2K4L9</text>
+  <text class="t sm" x="28" y="142">DATE   07/13/2026  14:22</text>
+  <text class="t sm" x="28" y="160">TERM   POS 04    CLERK 118</text>
+
+  <line class="dash" x1="28" y1="178" x2="372" y2="178"/>
+
+  <text class="t xs dim" x="28" y="198">QTY  DESCRIPTION</text>
+  <text class="t xs dim r" x="372" y="198">AMOUNT</text>
+
+  <text class="t sm" x="28" y="224">1    USB-C CABLE 2M BRAIDED</text>
+  <text class="t sm r" x="372" y="224">18.00</text>
+  <text class="t sm" x="28" y="246">4    LABEL MAKER TAPE 12MM</text>
+  <text class="t sm r" x="372" y="246">112.00</text>
+
+  <line class="dash" x1="28" y1="268" x2="372" y2="268"/>
+
+  <text class="t sm" x="28" y="292">SUBTOTAL</text>
+  <text class="t sm r" x="372" y="292">130.00</text>
+  <text class="t sm" x="28" y="312">TAX</text>
+  <text class="t sm r" x="372" y="312">0.00</text>
+
+  <line class="rule" x1="28" y1="326" x2="372" y2="326"/>
+
+  <text class="t md b" x="28" y="352">TOTAL</text>
+  <text class="t md b r" x="372" y="352">$130.00</text>
+
+  <line class="rule" x1="28" y1="366" x2="372" y2="366"/>
+
+  <text class="t sm" x="28" y="392">VISA ************4471</text>
+  <text class="t sm" x="28" y="410">AUTH 028841   APPROVED</text>
+  <text class="t xs dim" x="28" y="428">AID A0000000031010  CHIP</text>
+
+  <line class="dash" x1="28" y1="448" x2="372" y2="448"/>
+
+  <text class="t xs c dim" x="200" y="470">ITEMS SOLD: 5</text>
+  <text class="t xs c dim" x="200" y="486">RETURNS WITHIN 30 DAYS WITH RECEIPT</text>
+
+  <!-- barcode -->
+  <g fill="#2a2723">
+    <rect x="96" y="504" width="3" height="40"/><rect x="103" y="504" width="1" height="40"/>
+    <rect x="108" y="504" width="4" height="40"/><rect x="116" y="504" width="1" height="40"/>
+    <rect x="121" y="504" width="2" height="40"/><rect x="128" y="504" width="4" height="40"/>
+    <rect x="136" y="504" width="1" height="40"/><rect x="140" y="504" width="3" height="40"/>
+    <rect x="148" y="504" width="2" height="40"/><rect x="154" y="504" width="1" height="40"/>
+    <rect x="159" y="504" width="4" height="40"/><rect x="167" y="504" width="2" height="40"/>
+    <rect x="173" y="504" width="1" height="40"/><rect x="178" y="504" width="3" height="40"/>
+    <rect x="186" y="504" width="1" height="40"/><rect x="191" y="504" width="4" height="40"/>
+    <rect x="199" y="504" width="2" height="40"/><rect x="205" y="504" width="1" height="40"/>
+    <rect x="210" y="504" width="3" height="40"/><rect x="218" y="504" width="4" height="40"/>
+    <rect x="226" y="504" width="1" height="40"/><rect x="231" y="504" width="2" height="40"/>
+    <rect x="238" y="504" width="3" height="40"/><rect x="246" y="504" width="1" height="40"/>
+    <rect x="251" y="504" width="4" height="40"/><rect x="259" y="504" width="2" height="40"/>
+    <rect x="265" y="504" width="1" height="40"/><rect x="270" y="504" width="3" height="40"/>
+    <rect x="278" y="504" width="2" height="40"/><rect x="284" y="504" width="4" height="40"/>
+    <rect x="292" y="504" width="1" height="40"/><rect x="297" y="504" width="3" height="40"/>
+  </g>
+  <text class="t xs c dim" x="200" y="560">1142938471 2K4L9</text>
+
+  <text class="t sm c" x="200" y="582">THANK YOU FOR YOUR ORDER</text>
+</svg>

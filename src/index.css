@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Design tokens. Color carries meaning only — never decoration.
+   Dark-only by design: this is a finance tool, not a marketing site.
+--------------------------------------------------------------------------- */
+@theme {
+  /* surfaces — four steps, each ~5% lighter. no gradients anywhere */
+  --color-base: #0e1013;
+  --color-surface: #15181d;
+  --color-raised: #1b1f26;
+  --color-hover: #222730;
+
+  /* hairlines — every border in the app is 1px of one of these */
+  --color-line: #262b33;
+  --color-line-strong: #343a44;
+
+  /* text */
+  --color-ink: #e6e8eb;
+  --color-ink-dim: #9ba3ae;
+  --color-ink-faint: #616a76;
+
+  /* semantic — one hue per meaning */
+  --color-ok: #3fb950;
+  --color-ok-soft: #3fb9501f;
+  --color-warn: #d9a441;
+  --color-warn-soft: #d9a4411f;
+  --color-bad: #f0616d;
+  --color-bad-soft: #f0616d1f;
+  --color-idle: #7d8590;
+  --color-idle-soft: #7d85901f;
+  --color-focus: #58a6ff;
+
+  /* type — system stacks, no webfont fetch so the demo works offline */
+  --font-sans: ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "SF Mono", "Consolas",
+    "Liberation Mono", monospace;
+
+  --text-2xs: 0.6875rem; /* 11px — column headers, badges, labels */
+  --text-2xs--line-height: 1rem;
+}
+
+/* Density constants. Plain custom properties, not theme tokens — layout
+   dimensions are structural, not part of the palette. */
+:root {
+  --row-h: 32px; /* table row height */
+  --sidebar-w: 240px; /* full sidebar */
+  --rail-w: 64px; /* icon-only rail */
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-base text-ink font-sans antialiased;
+    font-size: 0.8125rem; /* 13px base — dense by default */
+    /* the page itself never scrolls sideways, at any width */
+    overflow-x: hidden;
+  }
+
+  /* One focus treatment everywhere, and it is always visible. */
+  :focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: -1px;
+  }
+
+  /* Digits must line up in every numeric context, not just the table. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-base);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-line-strong);
+    border: 2px solid var(--color-base);
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #414855;
+  }
+  ::-webkit-scrollbar-corner {
+    background: var(--color-base);
+  }
+}
+
+@layer components {
+  /* Small caps label used for card titles and column headers. */
+  .label-eyebrow {
+    @apply text-2xs uppercase tracking-[0.08em] text-ink-dim;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
